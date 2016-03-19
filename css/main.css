@@ -13,6 +13,7 @@
 .button {
 	font-size: 1.2em;
 	margin-top: 5px;
+	width: 250px;
 }
 
 .button-content {

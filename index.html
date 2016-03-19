@@ -11,7 +11,8 @@
 	<title>Amer's Portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body>
+<!-- The data spy and data-target are used to highlight the currently viewed section in the navbar -->
+<body data-spy="scroll" data-target=".navbar-collapse">
 	<!-- Navbar section -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 	  <div class="container-fluid">
@@ -30,10 +31,10 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	      	<li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+	      	<li class="active"><a href="#home">Home</a></li>
 	        <li><a href="#about-me">About me</a></li>
 	        <li><a href="#projects">Projects</a></li>
-	        <li><a href="#">Contact me</a></li>
+	        <li><a href="#contact">Contact me</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -88,8 +89,8 @@
 			<div class="row">
 				<!-- Project header and intro -->
 				<div class="col-md-12">
-					<h2 class="text-center">My projects</h2>
-					<p class="projects-intro">Below you can find some of my projects. Below each snapshot you can find a link to the page, as well as a link to the Github repository</p>
+					<h2 class="text-center">My Projects</h2>
+					<p class="projects-intro text-center">Below you can find some of my projects. Below each snapshot you can find a link to the page, as well as a link to the Github repository</p>
 				</div>
 			</div>
 			<!-- List of projects. Each row has three projects. For smaller devices, each projects is displayed on its own row. Each projects has a title, description, a snapshot, a link to the page, and a link to the repository (when available) -->
@@ -155,12 +156,31 @@
 				</div>
 			</div>
 		</div>
+		<br/><br/><hr class="rule-large">
+		<!-- Contact me section -->
+		<div id="contact">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center">Contact Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<h4>You are more than welcome to contact me or visit any of my pages, please choose from the options displayed on the right.</h4>
+				</div>
+				<div class="col-md-4 text-center">
+					<!-- Links to github, linkedin, free code camp, email and mobile. font awesome is used
+					to display icons on buttons -->
+					<button class="btn btn-primary button"><a href="https://github.com/amashamdan" target="blank"><span class="button-content"><i class="fa fa-github fa-lg"></i> Github</span></a></button><br/>
+					<button class="btn btn-primary button"><a href="https://www.linkedin.com/in/amerhamdan" target="blank"><span class="button-content"><i class="fa fa-linkedin fa-lg"></i> Linkedin</span></a></button><br/>
+					<button class="btn btn-primary button"><a href="https://www.freecodecamp.com/amashamdan" target="blank"><span class="button-content"><i class="fa fa-fire fa-lg"></i> Free Code Camp</span></a></button><br/>
+					<button class="btn btn-primary button"><a href="mailto:amashamdan@gmail.com"><span class="button-content"><i class="fa fa-envelope-o fa-lg"></i> email</span></a></button><br/>
+					<button class="btn btn-primary button"><span class="button-content"><i class="fa fa-phone fa-lg"></i> +962777881987</span></a></button><br/>
+				</div>
+			</div>
+		</div>
+		<br/><br/><br/>
 	</div>
 </body>
 </html>
-
-690 470
-
-1202  741
-resume
-tesing
