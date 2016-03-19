@@ -1,0 +1,15 @@
+hr {
+	height: 3px;
+	background-color: #bcbbbb;
+	border: none;
+}
+
+.button {
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+
+.button-content {
+	color: white;
+	text-decoration: none;
+}

@@ -4,16 +4,19 @@
 	<meta charset="utf-8">
 	<!-- To ensure proper rendering and touch zooming -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<title>Amer's Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
+	<!-- Navbar section -->
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <!-- The navbar header contains the name and the drawer button. For large display
+	    the the drawer contents are shown on the bar -->
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	        <span class="sr-only">Toggle navigation</span>
@@ -27,13 +30,35 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
-	      	<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">About me</a></li>
+	      	<li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+	        <li><a href="#about-me">About me</a></li>
 	        <li><a href="#">Projects</a></li>
 	        <li><a href="#">Contact me</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
+	<div class="container-fluid">
+		<!-- Home section -->
+		<div id="home">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<br/><br/><br/>
+					<h1 class="name text-primary">Amer Hamdan</h1>
+					<h3 class="title text-primary">Front End Web Developer</h3>
+					<hr/><br/><br/>
+					<h3 class="text-primary">Check my pages</h3><br/>
+					<button class="btn btn-primary button"><a href="https://github.com/amashamdan" target="blank"><span class="button-content"><i class="fa fa-github fa-lg"></i> Github</span></a></button>
+					<button class="btn btn-primary button"><a href="https://www.linkedin.com/in/amerhamdan" target="blank"><span class="button-content"><i class="fa fa-linkedin fa-lg"></i> Linkedin</span></a></button>
+					<button class="btn btn-primary button"><a href="https://www.freecodecamp.com/amashamdan" target="blank"><span class="button-content"><i class="fa fa-fire fa-lg"></i> Free Code Camp</span></a></button>
+				</div>
+			</div>
+		</div>
+		<div id="about-me">
+			<div class="row">
+				
+			</div>
+		</div>
+	</div>
 </body>
 </html>
