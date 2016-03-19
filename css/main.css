@@ -24,7 +24,8 @@
 	border-radius: 50%;
 }
 
-.about-me-text {
+.about-me-text,
+.projects-intro {
 	font-size: 1.4em;
 	margin: 20px;
 }
@@ -35,4 +36,8 @@
 
 .skills {
 	font-size: 1.3em;
+}
+
+.project-summary {
+	font-size: 1.2em;
 }
