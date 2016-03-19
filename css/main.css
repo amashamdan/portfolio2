@@ -1,5 +1,11 @@
-hr {
-	height: 3px;
+.rule-small {
+	height: 2px;
+	background-color: #bcbbbb;
+	border: none;
+}
+
+.rule-large {
+	height: 4px;
 	background-color: #bcbbbb;
 	border: none;
 }
@@ -12,4 +18,21 @@ hr {
 .button-content {
 	color: white;
 	text-decoration: none;
+}
+
+.photo {
+	border-radius: 50%;
+}
+
+.about-me-text {
+	font-size: 1.4em;
+	margin: 20px;
+}
+
+.skills-header {
+	margin: 20px 20px 10px 20px;
+}
+
+.skills {
+	font-size: 1.3em;
 }
