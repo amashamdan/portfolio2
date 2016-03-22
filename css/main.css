@@ -49,5 +49,15 @@ body {
 }
 
 .project-summary {
-	font-size: 1.2em;
+	font-size: 1.1em;
+	display: none;
+	padding: 50px 10px 0 10px;
+	position: absolute;
+	background-color: black;
+	color: white;
+	opacity: 0.85;
+}
+
+.project-header {
+	cursor: pointer;
 }
